@@ -8,3 +8,8 @@ function firstNonConsecutive(arr) {
   }
   return null
 }
+// No oddities here
+function noOdds( values ){
+  // Return all non-odd values
+  return values.filter(val=>val%2===0);
+}
