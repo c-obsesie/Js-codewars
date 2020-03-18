@@ -25,4 +25,19 @@ function SeriesSum(n) {
   
   return s.toFixed(2)
 }
+//Perimeter
+
+function findPerimeter(height,width){
+	return (height + width) * 2;
+}
+//Number of Two or More Consecutive Ones
+
+const countOnes = arr =>
+  arr
+    .join('')
+    .split(/0+/)
+    .filter(str => str && str.length > 1).length;
+
+
+
 
