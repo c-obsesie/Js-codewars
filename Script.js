@@ -46,11 +46,19 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 
 //Create a function called that accepts 2 string arguments and returns an integer of the count of occurrences the 2nd argument is found in the first one.
 
-
-
 function strCount(str, letter){  
   //code here
   let arr=str.split(letter).length-1
   
   return arr
 }
+
+//Find the Difference in Age between Oldest and Youngest Family Members
+
+const differenceInAges = ages => [
+  Math.min(...ages),
+  Math.max(...ages),
+  Math.max(...ages) - Math.min(...ages),
+]
+
+
