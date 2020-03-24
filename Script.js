@@ -38,6 +38,10 @@ const countOnes = arr =>
     .split(/0+/)
     .filter(str => str && str.length > 1).length;
 
+// Enough fuel 
 
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  return distanceToPump/mpg <= fuelLeft
+};
 
 
