@@ -67,6 +67,9 @@ function digits(n) {
  
  return( n.toString().length)
 }
-
+// Remove strings from array 
+function filter_list(l) {
+  return l.filter(function(v) {return typeof v == 'number'})
+}
 
 
