@@ -60,5 +60,13 @@ const differenceInAges = ages => [
   Math.max(...ages),
   Math.max(...ages) - Math.min(...ages),
 ]
+// Number of digits
+
+function digits(n) {
+
+ 
+ return( n.toString().length)
+}
+
 
 
