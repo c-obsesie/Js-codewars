@@ -71,5 +71,12 @@ function digits(n) {
 function filter_list(l) {
   return l.filter(function(v) {return typeof v == 'number'})
 }
-
-
+// summ of all minimums
+function sumOfMinimums(arr) {
+  let total = 0;
+  
+  for (let i = 0; i < arr.length; i++){
+   total += Math.min(...arr[i])
+  }
+  
+  return total;
